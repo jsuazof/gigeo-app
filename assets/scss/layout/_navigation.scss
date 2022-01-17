@@ -1,0 +1,25 @@
+.block-nav {
+  
+  &__logo {
+    font-family: $jost;
+    font-size: $xxx_large;
+    color: $negro;
+    font-weight: $f500;
+  }
+  &__sup {
+    font-family: $jost;
+    top:-2.5em;
+    font-size: $small;
+  }
+  &__items{
+    font-size: $x-large;
+    color: $negro;
+    
+  }
+}
+.bi{
+  font-weight: $f700 !important;
+  color: $negro;
+  
+}
+

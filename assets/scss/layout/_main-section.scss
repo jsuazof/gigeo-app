@@ -1,0 +1,39 @@
+
+.profile{
+    
+    &__img{ 
+        height: 5rem;
+        width: 5rem;
+        border-radius:80%;
+        -webkit-border-radius:80%;
+        -moz-border-radius:80%;
+        -ms-border-radius:80%;
+        -o-border-radius:80%;
+    }
+    &__title {
+        font-family: $jost;
+        font-size: $x_large;
+        font-weight: $f700;
+        color: $negro;
+      }
+}
+
+.button{
+    border-style: none;
+    color: $white;
+    background-color: $turquesa;
+    margin-right: .5rem;
+    font-family: $jost;
+    font-size: $medium;
+    height: 2rem;
+    width: 5rem;
+    &--orange{
+        background-color: $rojo;
+    }
+}
+h2{
+    font-family: $jost;
+    font-size: $x-large; 
+    margin-bottom: 1em; 
+}
+    
